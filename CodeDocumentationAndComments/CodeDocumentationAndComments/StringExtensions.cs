@@ -1,4 +1,10 @@
-﻿namespace Telerik.ILS.Common
+﻿//-----------------------------------------------------------------------
+// <copyright file="StringExtensions.cs" company="TelerikAcademy">
+//     All rights reserved © Telerik Academy 2012-2013
+// </copyright>
+//-----------------------------------------------------------------------
+
+namespace Telerik.ILS.Common
 {
     using System;
     using System.Collections.Generic;
