@@ -7,28 +7,14 @@ public class StatisticsTest
 {
     public static void PrintStatistics(double[] arr)
     {
-        double max = GetMaxElementOfArray(arr);
-        Console.WriteLine("Max value={0,5}", max);
-
         double min = GetMinValueOfArray(arr);
         Console.WriteLine("Min value={0,5}", min);
 
+        double max = GetMaxElementOfArray(arr);
+        Console.WriteLine("Max value={0,5}", max);
+
         double average = GetAverageValueOfArray(arr);
         Console.WriteLine("Average ={0,6}", average);
-    }
-
-    public static double GetAverageValueOfArray(double[] arr)
-    {
-        int count = arr.Length;
-        double sum = 0;
-
-        for (int i = 0; i < count; i++)
-        {
-            sum += arr[i];
-        }
-
-        double average = sum / count;
-        return average;
     }
 
     public static double GetMinValueOfArray(double[] arr)
@@ -61,6 +47,21 @@ public class StatisticsTest
         }
 
         return max;
+    }
+
+    public static double GetAverageValueOfArray(double[] arr)
+    {
+        int count = arr.Length;
+        double sum = 0;
+
+        for (int i = 0; i < count; i++)
+        {
+            sum += arr[i];
+        }
+
+        double average = sum / count;
+
+        return average;
     }
 
     public static void Main()
