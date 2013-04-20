@@ -13,15 +13,16 @@
                 throw new ArgumentOutOfRangeException("Sides should be positive.");
             }
 
+            // Heron's formula
             double halfPerimeter = (a + b + c) / 2;
             double area = Math.Sqrt(halfPerimeter * (halfPerimeter - a) * (halfPerimeter - b) * (halfPerimeter - c));
 
             return area;
         }
 
-        public static string NumberToDigit(int number)
+        public static string SayDigitToEnglishWord(int digit)
         {
-            switch (number)
+            switch (digit)
             {
                 case 0: return "zero";
                 case 1: return "one";
@@ -98,7 +99,7 @@
             // Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
             Console.WriteLine(CalcTriangleArea(3, 4, 5));
 
-            Console.WriteLine(NumberToDigit(5));
+            Console.WriteLine(SayDigitToEnglishWord(5));
 
             Console.WriteLine(FindMax(5, -1, 3, 2, 14, 2, 3));
 
@@ -114,8 +115,8 @@
             bool vertical = CheckIfIsVertical(3, 3);
             Console.WriteLine("Vertical? " + vertical);
 
-            Student peter = new Student("Peter", "Ivanov", "From Sofia, born at ", "17.03.1992");
-            Student stella = new Student("Stella", "Markova", "From Vidin, gamer, high results, born at ", "03.11.1993");
+            Student peter = new Student("Peter", "Ivanov", "From Sofia", "17.03.1992");
+            Student stella = new Student("Stella", "Markova", "From Vidin, gamer, high results", "03.11.1993");
             Console.WriteLine("{0} older than {1} -> {2}", peter.FirstName, stella.FirstName, peter.IsOlderThan(stella));
         }
     }

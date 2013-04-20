@@ -12,13 +12,13 @@
             this.BirthDate = DateTime.Parse(birthDate);
         }
 
-        public string FirstName { get; set; }
+        public string FirstName { get; private set; }
 
-        public string LastName { get; set; }
-
-        public string OtherInfo { get; set; }
+        public string LastName { get; private set; }
 
         public DateTime BirthDate { get; private set; }
+
+        public string OtherInfo { get; private set; }
 
         public bool IsOlderThan(Student other)
         {
