@@ -1,4 +1,5 @@
-﻿namespace Poker
+﻿
+namespace Poker
 {
     public enum CardSuit
     {

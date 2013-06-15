@@ -1,0 +1,193 @@
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD id=ctl00_MasterHead><TITLE>NumericUpDown Sample</TITLE><LINK rel=stylesheet type=text/css href="../StyleSheet.css"><LINK rel=stylesheet type=text/css href="../ASPNET/StyleSheet.css"><LINK rel=stylesheet type=text/css href="../App_Themes/SampleSiteTheme/Menu.ContextMenu.css">
+<SCRIPT type=text/javascript src="../CombineScriptsHandler.ashx?_TSM_HiddenField_=ctl00_SampleContent_ScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b"></SCRIPT>
+
+<SCRIPT type=text/javascript>Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":7,"Minimum":1,"RefValues":"","ServiceDownMethod":"","ServiceDownPath":"/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx","ServiceUpMethod":"","Tag":"","TargetButtonDownID":"","TargetButtonUpID":"","Width":120,"id":"ctl00_SampleContent_NumericUpDownExtender1"}, null, null, $get("ctl00_SampleContent_TextBox1"));
+});
+</SCRIPT>
+
+<SCRIPT type=text/javascript>Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":1.7976931348623157E+308,"Minimum":-1.7976931348623157E+308,"RefValues":"January;February;March;April;May;June;July;August;September;October;November;December","ServiceDownMethod":"","ServiceDownPath":"/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx","ServiceUpMethod":"","Tag":"","TargetButtonDownID":"","TargetButtonUpID":"","Width":120,"id":"ctl00_SampleContent_NumericUpDownExtender2"}, null, null, $get("ctl00_SampleContent_TextBox2"));
+});
+</SCRIPT>
+
+<SCRIPT type=text/javascript>Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":1.7976931348623157E+308,"Minimum":-1.7976931348623157E+308,"RefValues":"","ServiceDownMethod":"PrevValue","ServiceDownPath":"NumericUpDown.asmx","ServiceUpMethod":"NextValue","ServiceUpPath":"NumericUpDown.asmx","Tag":"","TargetButtonDownID":"","TargetButtonUpID":"","Width":120,"id":"ctl00_SampleContent_NumericUpDownExtender3"}, null, null, $get("ctl00_SampleContent_TextBox3"));
+});
+</SCRIPT>
+
+<SCRIPT type=text/javascript>Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":1.7976931348623157E+308,"Minimum":-1.7976931348623157E+308,"RefValues":"","ServiceDownMethod":"","ServiceDownPath":"/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx","ServiceUpMethod":"","Tag":"","TargetButtonDownID":"ctl00_SampleContent_img1","TargetButtonUpID":"ctl00_SampleContent_img2","Width":80,"id":"ctl00_SampleContent_NumericUpDownExtender4"}, null, null, $get("ctl00_SampleContent_TextBox4"));
+});
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM id=aspnetForm method=post name=aspnetForm action=NumericUpDown.aspx>
+<DIV><INPUT id=ctl00_SampleContent_ScriptManager1_HiddenField value=";;AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e:en:608fa982-dded-4326-bfe7-b13cdd701e9a:de1feab2:f9cec9bc:ee910bbe:f2c8e708:720a52bf:4a2c8239;" type=hidden name=ctl00_SampleContent_ScriptManager1_HiddenField> <INPUT id=__EVENTTARGET type=hidden name=__EVENTTARGET> <INPUT id=__EVENTARGUMENT type=hidden name=__EVENTARGUMENT>  </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="/ajaxLibrary/AjaxControlToolkitSampleSite/WebResource.axd?d=oV08H8q6P7I4irxNFJq4EJnCBMSKxjoXV8Mvl8Gu5pb5lTmD7hEpZQOxVoK_trcDsa5LPpft_CPuLN879bTlVQKFHX3GiIZBbfCy5Jf7mLo1&amp;t=634990933287706075"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/ajaxLibrary/AjaxControlToolkitSampleSite/ScriptResource.axd?d=_hSUKSQdvAs7dxQgs9-PDrSiKiE0c9O5zvO0sj4yZ2QLo6tYqKk_bwwraYR04nIr3PC67krX9TJ74PqE3GLbGf5zgbmzm86AbQTJO_njhxV9HYTO0MUc2Q9MJgc1xDU2aS_17TjxLvUtjkkzQ61REg2&amp;t=ffffffffae5faa5e"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="/ajaxLibrary/AjaxControlToolkitSampleSite/ScriptResource.axd?d=zMeaU8mAx03fvRTGvIdgPBA528AcjFjh_sJUxTvxSCep3QLubWabVVIUxoB44GaGggOiw5sAod0_1XsK7FJOf8KeK6ynH0CXlPWB7wEg0Kj3oxD4Z3I03LdwOLcYOSU1Kjd8zpgMI82vBUZ4rHn_cg2&amp;t=ffffffffae5faa5e"></SCRIPT>
+
+<SCRIPT type=text/javascript src="../CombineScriptsHandler.ashx?_TSM_HiddenField_=ctl00_SampleContent_ScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen%3a608fa982-dded-4326-bfe7-b13cdd701e9a%3ade1feab2%3af9cec9bc%3aee910bbe%3af2c8e708%3a720a52bf%3a4a2c8239"></SCRIPT>
+
+<DIV> </DIV>
+<DIV id=master_header>
+<DIV style="MARGIN: 0px auto; WIDTH: 800px" class=bucket_gray_menu>
+<DIV class=bucket_gray_menu_content><A href="http://www.asp.net/ajax/default.aspx"><IMG style="WIDTH: 200px; HEIGHT: 81px" class=ajax_logo alt="ASP.net AJAX" src="/ajaxLibrary/AjaxControlToolkitSampleSite/ASPNET/ajax_logo.png"></A> 
+<UL style="MARGIN-LEFT: 200px">
+<LI style="WIDTH: 85px"><A class="first button_download" href="http://ajaxcontroltoolkit.codeplex.com/"><SPAN>Downloads</SPAN></A> </LI>
+<LI style="WIDTH: 85px"><A class=button_videos href="http://www.asp.net/ajax/videos"><SPAN>Videos</SPAN></A></LI>
+<LI style="WIDTH: 85px"><A class=button_tutorials href="http://www.asp.net/ajax/tutorials"><SPAN>Tutorials</SPAN></A></LI>
+<LI style="WIDTH: 85px"><A class=button_forums href="http://forums.asp.net/1022.aspx/1?ASP+NET+AJAX+Ajax+Control+Toolkit"><SPAN>Forums</SPAN></A> </LI></UL>
+<DIV class=clear></DIV></DIV></DIV>
+<DIV id=master_headertop><A id=ctl00_HomePageLink title="Ajax Control Toolkit" href="../Default.aspx"><IMG style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" id=ctl00_HeaderImage alt="Ajax Control Toolkit" src="../images/headertop_img.jpg"></A> </DIV>
+<DIV id=master_headerbottom></DIV></DIV>
+<DIV id=master_page>
+<DIV id=master_menu>
+<DIV class=sidebar>
+<DIV class=sidebarheader>Samples</DIV>
+<DIV id=master_sidebarSamples class=sidebarcontent><A id=ctl00_SamplesLinks_ctl00_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Default.aspx">HOME</A><BR><A id=ctl00_SamplesLinks_ctl01_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Accordion/Accordion.aspx">Accordion</A><BR><A id=ctl00_SamplesLinks_ctl02_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/AjaxFileUpload/AjaxFileUpload.aspx">AjaxFileUpload</A><BR><A id=ctl00_SamplesLinks_ctl03_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/AlwaysVisibleControl/AlwaysVisibleControl.aspx">AlwaysVisibleControl</A><BR><A id=ctl00_SamplesLinks_ctl04_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Animation/Animation.aspx">Animation</A><BR><A id=ctl00_SamplesLinks_ctl05_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/AreaChart/AreaChart.aspx">AreaChart</A><BR><A id=ctl00_SamplesLinks_ctl06_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/AsyncFileUpload/AsyncFileUpload.aspx">AsyncFileUpload</A><BR><A id=ctl00_SamplesLinks_ctl07_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/AutoComplete/AutoComplete.aspx">AutoComplete</A><BR><A id=ctl00_SamplesLinks_ctl08_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/BalloonPopup/BalloonPopupExtender.aspx">BalloonPopup</A><BR><A id=ctl00_SamplesLinks_ctl09_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/BarChart/BarChart.aspx">BarChart</A><BR><A id=ctl00_SamplesLinks_ctl10_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/BubbleChart/BubbleChart.aspx">BubbleChart</A><BR><A id=ctl00_SamplesLinks_ctl11_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Calendar/Calendar.aspx">Calendar</A><BR><A id=ctl00_SamplesLinks_ctl12_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/CascadingDropDown/CascadingDropDown.aspx">CascadingDropDown</A><BR><A id=ctl00_SamplesLinks_ctl13_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/CollapsiblePanel/CollapsiblePanel.aspx">CollapsiblePanel</A><BR><A id=ctl00_SamplesLinks_ctl14_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ColorPicker/ColorPicker.aspx">ColorPicker</A><BR><A id=ctl00_SamplesLinks_ctl15_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ComboBox/ComboBox.aspx">ComboBox</A><BR><A id=ctl00_SamplesLinks_ctl16_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ConfirmButton/ConfirmButton.aspx">ConfirmButton</A><BR><A id=ctl00_SamplesLinks_ctl17_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/DragPanel/DragPanel.aspx">DragPanel</A><BR><A id=ctl00_SamplesLinks_ctl18_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/DropDown/DropDown.aspx">DropDown</A><BR><A id=ctl00_SamplesLinks_ctl19_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/DropShadow/DropShadow.aspx">DropShadow</A><BR><A id=ctl00_SamplesLinks_ctl20_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/DynamicPopulate/DynamicPopulate.aspx">DynamicPopulate</A><BR><A id=ctl00_SamplesLinks_ctl21_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/FilteredTextBox/FilteredTextBox.aspx">FilteredTextBox</A><BR><A id=ctl00_SamplesLinks_ctl22_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Gravatar/Gravatar.aspx">Gravatar</A><BR><A id=ctl00_SamplesLinks_ctl23_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/HoverMenu/HoverMenu.aspx">HoverMenu</A><BR><A id=ctl00_SamplesLinks_ctl24_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/HTMLEditorExtender/HTMLEditorExtender.aspx">HTMLEditorExtender</A><BR><A id=ctl00_SamplesLinks_ctl25_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/LineChart/LineChart.aspx">LineChart</A><BR><A id=ctl00_SamplesLinks_ctl26_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ListSearch/ListSearch.aspx">ListSearch</A><BR><A id=ctl00_SamplesLinks_ctl27_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/MaskedEdit/MaskedEdit.aspx">MaskedEdit</A><BR><A id=ctl00_SamplesLinks_ctl28_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ModalPopup/ModalPopup.aspx">ModalPopup</A><BR><A id=ctl00_SamplesLinks_ctl29_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/MultiHandleSlider/MultiHandleSlider.aspx">MultiHandleSlider</A><BR><A id=ctl00_SamplesLinks_ctl30_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/MutuallyExclusiveCheckBox/MutuallyExclusiveCheckBox.aspx">MutuallyExclusiveCheckBox</A><BR><A id=ctl00_SamplesLinks_ctl31_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/NoBot/NoBot.aspx">NoBot</A><BR><A id=ctl00_SamplesLinks_ctl32_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx">NumericUpDown</A><BR><A id=ctl00_SamplesLinks_ctl33_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/PagingBulletedList/PagingBulletedList.aspx">PagingBulletedList</A><BR><A id=ctl00_SamplesLinks_ctl34_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/PasswordStrength/PasswordStrength.aspx">PasswordStrength</A><BR><A id=ctl00_SamplesLinks_ctl35_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/PieChart/PieChart.aspx">PieChart</A><BR><A id=ctl00_SamplesLinks_ctl36_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/PopupControl/PopupControl.aspx">PopupControl</A><BR><A id=ctl00_SamplesLinks_ctl37_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Rating/Rating.aspx">Rating</A><BR><A id=ctl00_SamplesLinks_ctl38_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ReorderList/ReorderList.aspx">ReorderList</A><BR><A id=ctl00_SamplesLinks_ctl39_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ResizableControl/ResizableControl.aspx">ResizableControl</A><BR><A id=ctl00_SamplesLinks_ctl40_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/RoundedCorners/RoundedCorners.aspx">RoundedCorners</A><BR><A id=ctl00_SamplesLinks_ctl41_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Seadragon/Seadragon.aspx">Seadragon</A><BR><A id=ctl00_SamplesLinks_ctl42_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Slider/Slider.aspx">Slider</A><BR><A id=ctl00_SamplesLinks_ctl43_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/SlideShow/SlideShow.aspx">SlideShow</A><BR><A id=ctl00_SamplesLinks_ctl44_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Tabs/Tabs.aspx">Tabs</A><BR><A id=ctl00_SamplesLinks_ctl45_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/TextBoxWatermark/TextBoxWatermark.aspx">TextBoxWatermark</A><BR><A id=ctl00_SamplesLinks_ctl46_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ToggleButton/ToggleButton.aspx">ToggleButton</A><BR><A id=ctl00_SamplesLinks_ctl47_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Twitter/Twitter.aspx">Twitter</A><BR><A id=ctl00_SamplesLinks_ctl48_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/UpdatePanelAnimation/UpdatePanelAnimation.aspx">UpdatePanelAnimation</A><BR><A id=ctl00_SamplesLinks_ctl49_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/ValidatorCallout/ValidatorCallout.aspx">ValidatorCallout</A><BR></DIV></DIV>
+<DIV class=sidebar>
+<DIV class=sidebarheader>Walkthroughs</DIV>
+<DIV id=master_sidebarWalkthroughs class=sidebarcontent><A id=ctl00_GettingStartedLink href="http://www.asp.net/learn/Ajax-Control-Toolkit/tutorial-47-cs.aspx">Getting Started</A><BR><A id=ctl00_SampleExtenderLink href="http://www.asp.net/learn/Ajax-Control-Toolkit/tutorial-48-cs.aspx">Using a Sample Extender</A><BR><A id=ctl00_CreateExtenderLink href="http://www.asp.net/learn/Ajax-Control-Toolkit/tutorial-49-cs.aspx">Creating a New Extender</A><BR><A id=ctl00_TutorialsLink href="http://www.asp.net/learn/ajax/#ajaxcontroltoolkit">Toolkit Tutorials</A><BR><A id=ctl00_VideosLink href="http://www.asp.net/learn/ajax-videos/#ajaxcontroltoolkit">Tookit Videos</A><BR><BR>
+<P><SPAN class=heading>Other Walkthroughs:</SPAN></P><A id=ctl00_WalkthroughsLinks_ctl00_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Walkthrough/ExtenderClasses.aspx">Extender base class features</A><BR><A id=ctl00_WalkthroughsLinks_ctl01_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Walkthrough/UsingAnimations.aspx">Using Animations</A><BR><A id=ctl00_WalkthroughsLinks_ctl02_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Walkthrough/AnimationReference.aspx">Animation Reference</A><BR><A id=ctl00_WalkthroughsLinks_ctl03_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Walkthrough/CCDWithDB.aspx">CascadingDropDown with<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a Database</A><BR><A id=ctl00_WalkthroughsLinks_ctl04_SamplesLink href="/ajaxLibrary/AjaxControlToolkitSampleSite/Walkthrough/OtherNeatStuff.aspx">Other neat stuff</A><BR></DIV></DIV></DIV>
+<DIV id=master_content>
+<DIV id=master_contentheader></DIV>
+<DIV id=master_contentplaceholder>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$SampleContent$ScriptManager1', 'aspnetForm', ['tctl00$SampleContent$UpdatePanel1',''], [], [], 90, 'ctl00');
+//]]>
+</SCRIPT>
+
+<DIV class=demoarea>
+<DIV class=demoheading>NumericUpDown Demonstration</DIV>
+<DIV id=ctl00_SampleContent_UpdatePanel1>
+<TABLE>
+<TBODY>
+<TR>
+<TD>Enter a numeric value and use the up and down buttons to increment/decrement (min:1 and max:7)</TD>
+<TD>
+<DIV style="POSITION: relative; WIDTH: 120px; PADDING-RIGHT: 24px; DISPLAY: inline; HEIGHT: 18px; FONT-SIZE: 18px">
+<TABLE style="POSITION: relative; DISPLAY: inline; BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px" rowSpan=2><INPUT style="TEXT-ALIGN: center; WIDTH: 96px" id=ctl00_SampleContent_TextBox1 value=4 type=text name=ctl00$SampleContent$TextBox1></TD>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px"><INPUT style="BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; LINE-HEIGHT: 1em; WIDTH: 24px; FONT-FAMILY: Webdings; HEIGHT: 12px; FONT-SIZE: 9pt; OVERFLOW: hidden; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset" id=ctl00_SampleContent_TextBox1_bUp value=5 type=button></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px"><INPUT style="BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; LINE-HEIGHT: 3pt; WIDTH: 24px; FONT-FAMILY: Webdings; HEIGHT: 12px; FONT-SIZE: 9pt; OVERFLOW: hidden; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset" id=ctl00_SampleContent_TextBox1_bDown value=6 type=button></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR>
+<TD>Choose your favorite month</TD>
+<TD>
+<DIV style="POSITION: relative; WIDTH: 120px; PADDING-RIGHT: 24px; DISPLAY: inline; HEIGHT: 18px; FONT-SIZE: 18px">
+<TABLE style="POSITION: relative; DISPLAY: inline; BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px" rowSpan=2><INPUT style="TEXT-ALIGN: center; WIDTH: 96px" id=ctl00_SampleContent_TextBox2 value=July readOnly type=text name=ctl00$SampleContent$TextBox2></TD>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px"><INPUT style="BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; LINE-HEIGHT: 1em; WIDTH: 24px; FONT-FAMILY: Webdings; HEIGHT: 12px; FONT-SIZE: 9pt; OVERFLOW: hidden; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset" id=ctl00_SampleContent_TextBox2_bUp value=5 type=button></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px"><INPUT style="BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; LINE-HEIGHT: 3pt; WIDTH: 24px; FONT-FAMILY: Webdings; HEIGHT: 12px; FONT-SIZE: 9pt; OVERFLOW: hidden; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset" id=ctl00_SampleContent_TextBox2_bDown value=6 type=button></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR>
+<TD>Let the web service pick a random number between 0 and 1000 that is higher/lower than the displayed value</TD>
+<TD>
+<DIV style="POSITION: relative; WIDTH: 120px; PADDING-RIGHT: 24px; DISPLAY: inline; HEIGHT: 18px; FONT-SIZE: 18px">
+<TABLE style="POSITION: relative; DISPLAY: inline; BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px" rowSpan=2><INPUT style="TEXT-ALIGN: center; WIDTH: 96px" id=ctl00_SampleContent_TextBox3 value=750 readOnly type=text name=ctl00$SampleContent$TextBox3></TD>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px"><INPUT style="BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; LINE-HEIGHT: 1em; WIDTH: 24px; FONT-FAMILY: Webdings; HEIGHT: 12px; FONT-SIZE: 9pt; OVERFLOW: hidden; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset" id=ctl00_SampleContent_TextBox3_bUp value=5 type=button></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px"><INPUT style="BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; LINE-HEIGHT: 3pt; WIDTH: 24px; FONT-FAMILY: Webdings; HEIGHT: 12px; FONT-SIZE: 9pt; OVERFLOW: hidden; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset" id=ctl00_SampleContent_TextBox3_bDown value=6 type=button></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR>
+<TD>Use the arrow images to increment/decrement the value</TD>
+<TD><INPUT style="TEXT-ALIGN: center; WIDTH: 60px" id=ctl00_SampleContent_TextBox4 value=1 type=text name=ctl00$SampleContent$TextBox4> <INPUT style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 15px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 15px; BORDER-LEFT-WIDTH: 0px" id=ctl00_SampleContent_img1 alt=Down src="../images/down.gif" type=image name=ctl00$SampleContent$img1> <INPUT style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 15px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 15px; BORDER-LEFT-WIDTH: 0px" id=ctl00_SampleContent_img2 alt=Up src="../images/up.gif" type=image name=ctl00$SampleContent$img2> </TD></TR></TBODY></TABLE><BR><INPUT id=ctl00_SampleContent_Button1 value=Submit type=submit name=ctl00$SampleContent$Button1> <BR><BR><SPAN id=ctl00_SampleContent_Label1>Value: <B>4</B><BR>Month: <B>July</B><BR>Random Value: <B>750</B><BR>Value: <B>1</B></SPAN> </DIV></DIV>
+<DIV class=demobottom></DIV>
+<DIV style="CURSOR: pointer" id=ctl00_SampleContent_Description_HeaderPanel>
+<DIV class=heading><INPUT style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" id=ctl00_SampleContent_Description_ToggleImage title=Collapse alt=collapse src="../images/collapse.jpg" type=image name=ctl00$SampleContent$Description_ToggleImage> NumericUpDown Description </DIV></DIV>
+<DIV style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW-Y: hidden; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: auto; VISIBILITY: visible; OVERFLOW: hidden; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px">
+<DIV style="HEIGHT: auto; VISIBILITY: visible; OVERFLOW: hidden" id=ctl00_SampleContent_Description_ContentPanel>
+<P>NumericUpDown is an ASP.NET AJAX extender that can be attached to an ASP.NET TextBox control to add "up" and "down" buttons that increment and decrement the value in the TextBox. The increment and decrement can be simple +1/-1 arithmetic, they can cycle through a provided list of values (like the months of the year), or they can call a Web Service to determine the next value. Page authors can also provide custom images to be used instead of the default up/down button graphics. </P></DIV></DIV>
+<DIV style="CURSOR: pointer" id=ctl00_SampleContent_Properties_HeaderPanel>
+<DIV class=heading><INPUT style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" id=ctl00_SampleContent_Properties_ToggleImage title=Expand alt=expand src="../images/expand.jpg" type=image name=ctl00$SampleContent$Properties_ToggleImage> NumericUpDown Properties </DIV></DIV>
+<DIV style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW-Y: hidden; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: none; HEIGHT: 0px; VISIBILITY: visible; OVERFLOW: hidden; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px" oldDisplay="block">
+<DIV style="HEIGHT: auto; VISIBILITY: visible; OVERFLOW: hidden" id=ctl00_SampleContent_Properties_ContentPanel>
+<P>The control above is initialized with this code. The <EM>italic</EM> properties are optional: </P><PRE>&lt;ajaxToolkit:NumericUpDownExtender ID="NUD1" runat="server"
+    TargetControlID="TextBox1" 
+    Width="100"
+    <EM>RefValues</EM>="January;February;March;April"
+    <EM>TargetButtonDownID</EM>="Button1"
+    <EM>TargetButtonUpID</EM>="Button2"
+    <EM>ServiceDownPath</EM>="WebService1.asmx"
+    <EM>ServiceDownMethod</EM>="PrevValue"
+    <EM>ServiceUpPath</EM>="WebService1.asmx"
+    <EM>ServiceUpMethod</EM>="NextValue"
+    <EM>Tag</EM>="1" /&gt;</PRE>
+<UL>
+<LI><STRONG>TargetControlID</STRONG> - The ID of the TextBox to modify</LI>
+<LI><STRONG>Width</STRONG> - Combined size of the TextBox and Up/Down buttons (min value 25). This property is not used if you provide custom buttons.</LI>
+<LI><STRONG>RefValues</STRONG> - A list of strings separated by semicolons (;) to be used as an enumeration by NumericUpDown</LI>
+<LI><STRONG>Step</STRONG> - Step used for simple numeric incrementing and decrementing. The default value is 1.</LI>
+<LI><STRONG>TargetButtonDownID/TargetButtonUpID</STRONG> - Reference to custom Up/Down buttons.</LI>
+<LI><STRONG>ServiceDownPath/ServiceUpPath</STRONG> - Path to a web service that returns the data used to get the next or previous value. This property should be left null if ServiceUpMethod or ServiceDownMethod refers to a page method. The web service should be decorated with the System.Web.Script.Services.ScriptService attribute.</LI>
+<LI><STRONG>ServiceDownMethod/ServiceUpMethod</STRONG> - Web service method that returns the data used to get the next or previous value, or the name of a method declared on the Page which is decorated with the WebMethodAttribute. The signature of this method must match the following: <PRE>[System.Web.Services.WebMethod]
+[System.Web.Script.Services.ScriptMethod]
+public int NextValue(int current, string tag) { ... }</PRE>Note you can replace "NextValue" with a name of your choice, but the return type and parameter name and type must exactly match, including case.</LI>
+<LI><STRONG>Tag</STRONG> - Specifies a custom parameter to pass to the Web Service</LI>
+<LI><STRONG>Minimum</STRONG> - The minimum value allowed by the extender. Currently, it does not prevent out of range values from being entered into the textbox even if Minimum or Maximum are specified on the extender, but using the up/down buttons should bring the value into the allowed range when clicked.</LI>
+<LI><STRONG>Maximum</STRONG> - The maximum value allowed by the extender.</LI></UL></DIV></DIV>
+<DIV style="CURSOR: pointer" id=ctl00_SampleContent_KnownIssues_HeaderPanel>
+<DIV class=heading><INPUT style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" id=ctl00_SampleContent_KnownIssues_ToggleImage title=Collapse alt=collapse src="../images/collapse.jpg" type=image name=ctl00$SampleContent$KnownIssues_ToggleImage> NumericUpDown Known Issues </DIV></DIV>
+<DIV style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW-Y: hidden; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: auto; VISIBILITY: visible; OVERFLOW: hidden; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px">
+<DIV style="HEIGHT: auto; VISIBILITY: visible; OVERFLOW: hidden" id=ctl00_SampleContent_KnownIssues_ContentPanel>
+<P>The display of the default up/down buttons in Safari is such that Safari's "shiny" button style makes the up/down arrows difficult to see. Custom images can be used for complete control over the appearance. </P></DIV></DIV><INPUT id=ctl00_SampleContent_cpeKnownIssues_ClientState value=false type=hidden name=ctl00$SampleContent$cpeKnownIssues_ClientState> <INPUT id=ctl00_SampleContent_cpeDescription_ClientState value=false type=hidden name=ctl00$SampleContent$cpeDescription_ClientState> <INPUT id=ctl00_SampleContent_cpeProperties_ClientState value=true type=hidden name=ctl00$SampleContent$cpeProperties_ClientState> </DIV>
+<DIV id=master_contentfooter>Copyright © 2006-2011 Microsoft Corporation. All Rights Reserved.</DIV></DIV></DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_SampleContent_ScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":7,"Minimum":1,"RefValues":"","ServiceDownMethod":"","ServiceDownPath":"/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx","ServiceUpMethod":"","Tag":"","TargetButtonDownID":"","TargetButtonUpID":"","Width":120,"id":"ctl00_SampleContent_NumericUpDownExtender1"}, null, null, $get("ctl00_SampleContent_TextBox1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":1.7976931348623157E+308,"Minimum":-1.7976931348623157E+308,"RefValues":"January;February;March;April;May;June;July;August;September;October;November;December","ServiceDownMethod":"","ServiceDownPath":"/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx","ServiceUpMethod":"","Tag":"","TargetButtonDownID":"","TargetButtonUpID":"","Width":120,"id":"ctl00_SampleContent_NumericUpDownExtender2"}, null, null, $get("ctl00_SampleContent_TextBox2"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":1.7976931348623157E+308,"Minimum":-1.7976931348623157E+308,"RefValues":"","ServiceDownMethod":"PrevValue","ServiceDownPath":"NumericUpDown.asmx","ServiceUpMethod":"NextValue","ServiceUpPath":"NumericUpDown.asmx","Tag":"","TargetButtonDownID":"","TargetButtonUpID":"","Width":120,"id":"ctl00_SampleContent_NumericUpDownExtender3"}, null, null, $get("ctl00_SampleContent_TextBox3"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NumericUpDownBehavior, {"Maximum":1.7976931348623157E+308,"Minimum":-1.7976931348623157E+308,"RefValues":"","ServiceDownMethod":"","ServiceDownPath":"/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx","ServiceUpMethod":"","Tag":"","TargetButtonDownID":"ctl00_SampleContent_img1","TargetButtonUpID":"ctl00_SampleContent_img2","Width":80,"id":"ctl00_SampleContent_NumericUpDownExtender4"}, null, null, $get("ctl00_SampleContent_TextBox4"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_SampleContent_cpeKnownIssues_ClientState","CollapseControlID":"ctl00_SampleContent_KnownIssues_HeaderPanel","CollapsedImage":"../images/expand.jpg","CollapsedText":"Expand","ExpandControlID":"ctl00_SampleContent_KnownIssues_HeaderPanel","ExpandedImage":"../images/collapse.jpg","ExpandedText":"Collapse","ImageControlID":"ctl00_SampleContent_KnownIssues_ToggleImage","SuppressPostBack":true,"id":"ctl00_SampleContent_cpeKnownIssues"}, null, null, $get("ctl00_SampleContent_KnownIssues_ContentPanel"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_SampleContent_cpeDescription_ClientState","CollapseControlID":"ctl00_SampleContent_Description_HeaderPanel","CollapsedImage":"../images/expand.jpg","CollapsedText":"Expand","ExpandControlID":"ctl00_SampleContent_Description_HeaderPanel","ExpandedImage":"../images/collapse.jpg","ExpandedText":"Collapse","ImageControlID":"ctl00_SampleContent_Description_ToggleImage","SuppressPostBack":true,"id":"ctl00_SampleContent_cpeDescription"}, null, null, $get("ctl00_SampleContent_Description_ContentPanel"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_SampleContent_cpeProperties_ClientState","CollapseControlID":"ctl00_SampleContent_Properties_HeaderPanel","Collapsed":true,"CollapsedImage":"../images/expand.jpg","CollapsedText":"Expand","ExpandControlID":"ctl00_SampleContent_Properties_HeaderPanel","ExpandedImage":"../images/collapse.jpg","ExpandedText":"Collapse","ImageControlID":"ctl00_SampleContent_Properties_ToggleImage","SuppressPostBack":true,"id":"ctl00_SampleContent_cpeProperties"}, null, null, $get("ctl00_SampleContent_Properties_ContentPanel"));
+});
+//]]>
+</SCRIPT>
+<INPUT id=hiddenInputToUpdateATBuffer_CommonToolkitScripts value=0 type=hidden name=hiddenInputToUpdateATBuffer_CommonToolkitScripts><SPAN style="DISPLAY: none !important"><INPUT id=__VIEWSTATE value=/wEPDwUKLTcyNzY5MjcxOA9kFgJmD2QWAgIDD2QWAgIXD2QWCAIDD2QWAmYPZBYCAg8PDxYCHgRUZXh0BVRWYWx1ZTogPGI+NDwvYj48YnI+TW9udGg6IDxiPkp1bHk8L2I+PGJyPlJhbmRvbSBWYWx1ZTogPGI+NzUwPC9iPjxicj5WYWx1ZTogPGI+MTwvYj5kZAIHDw9kFgIeBVN0eWxlBRlvdmVyZmxvdzpoaWRkZW47ZGlzcGxheTo7ZAILDw9kFgIfAQUdb3ZlcmZsb3c6aGlkZGVuO2Rpc3BsYXk6bm9uZTtkAg8PD2QWAh8BBRlvdmVyZmxvdzpoaWRkZW47ZGlzcGxheTo7ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBQUYY3RsMDAkU2FtcGxlQ29udGVudCRpbWcxBRhjdGwwMCRTYW1wbGVDb250ZW50JGltZzIFK2N0bDAwJFNhbXBsZUNvbnRlbnQkRGVzY3JpcHRpb25fVG9nZ2xlSW1hZ2UFKmN0bDAwJFNhbXBsZUNvbnRlbnQkUHJvcGVydGllc19Ub2dnbGVJbWFnZQUrY3RsMDAkU2FtcGxlQ29udGVudCRLbm93bklzc3Vlc19Ub2dnbGVJbWFnZXPJwOoICmRM7OzvQKdrWfFil9xR2rWOJB+imTLKWkeJ type=hidden name=__VIEWSTATE _isContained="true"></SPAN><SPAN style="DISPLAY: none !important"><INPUT id=__EVENTVALIDATION value=/wEWDgLx5da9CwLh3KeGAQLh3OOXCwLh3M+8AgLh3IvODALFp+zlBALFp9iKDALfzaT4DwKx44KIBgK1v/PqBwKF1YH7AQKWhKiyDwKUrcOkDgKJj5WOCUDvnxSwx+rUM6EdERUg0SexC57Fx4hfeAtEqNsWLSL6 type=hidden name=__EVENTVALIDATION _isContained="true"></SPAN></FORM></BODY></HTML>

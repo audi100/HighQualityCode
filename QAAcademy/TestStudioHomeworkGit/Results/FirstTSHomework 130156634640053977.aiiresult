@@ -1,0 +1,2650 @@
+<RunResult Type="ArtOfTest.WebAii.Design.Execution.RunResult" Version="2012.2.1420.0">
+  <__DataMember_FileName IsDataContractSerialized="True" PropertyName="FileName" PropertyType="System.String">
+    <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">FirstTSHomework 130156634640053977</string>
+  </__DataMember_FileName>
+  <__DataMember_Id IsDataContractSerialized="True" PropertyName="Id" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">42592b7a-cb68-478e-9a55-80afdf5646ce</guid>
+  </__DataMember_Id>
+  <__DataMember_Machine IsDataContractSerialized="True" PropertyName="Machine" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine">
+    <Machine xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+      <DBState>0</DBState>
+      <Id>00000000-0000-0000-0000-000000000000</Id>
+      <InstalledBrowsers>
+        <BrowserInformation>
+          <Type>InternetExplorer</Type>
+          <Version>8.0.7600.16385</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>FireFox</Type>
+          <Version>21.0 (en-US)</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Chrome</Type>
+          <Version />
+        </BrowserInformation>
+      </InstalledBrowsers>
+      <NetworkName>DANKRISS-PC</NetworkName>
+      <OperatingSystem>Windows 7</OperatingSystem>
+      <ServiceUri i:nil="true" />
+      <Status>Ready</Status>
+      <UserName>DanKriss</UserName>
+    </Machine>
+  </__DataMember_Machine>
+  <__DataMember_RunId IsDataContractSerialized="True" PropertyName="RunId" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">42592b7a-cb68-478e-9a55-80afdf5646ce</guid>
+  </__DataMember_RunId>
+  <__DataMember_TestListId IsDataContractSerialized="True" PropertyName="TestListId" PropertyType="System.Guid">
+    <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">42803d78-2fc9-4757-afc5-cabdcc22ee29</guid>
+  </__DataMember_TestListId>
+  <TestListName Type="System.String">FirstTSHomework</TestListName>
+  <StartTime Type="System.DateTime">2013-06-14 06:01:33Z+0000000</StartTime>
+  <EndTime Type="System.DateTime">2013-06-14 06:04:24Z+0003974</EndTime>
+  <DataCollectors />
+  <TestResults>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">01abc802-5d01-43b9-afa3-3dbd3c41ad79</TestId>
+      <TestName Type="System.String">ColorPicker</TestName>
+      <TestPath Type="System.String">ColorPicker.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.asp.net/ajaxLibrary/AjaxControlToolkitSampleSite/ColorPicker/ColorPicker.aspx'</StepDescription>
+          <TestId Type="System.String">01abc802-5d01-43b9-afa3-3dbd3c41ad79</TestId>
+          <TestName Type="System.String">ColorPicker</TestName>
+          <TestPath Type="System.String">ColorPicker.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'PalettePickerButton'</StepDescription>
+          <TestId Type="System.String">01abc802-5d01-43b9-afa3-3dbd3c41ad79</TestId>
+          <TestName Type="System.String">ColorPicker</TestName>
+          <TestPath Type="System.String">ColorPicker.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960561</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ChooseColor'</StepDescription>
+          <TestId Type="System.String">01abc802-5d01-43b9-afa3-3dbd3c41ad79</TestId>
+          <TestName Type="System.String">ColorPicker</TestName>
+          <TestPath Type="System.String">ColorPicker.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960562</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'ColorAndBackground:BackgroundColor' style 'Exact' '#FF0000' on 'TestColorBox'</StepDescription>
+          <TestId Type="System.String">01abc802-5d01-43b9-afa3-3dbd3c41ad79</TestId>
+          <TestName Type="System.String">ColorPicker</TestName>
+          <TestPath Type="System.String">ColorPicker.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1740805316</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:01:33 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:01:33 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:01:35 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:01:38 AM' - 'Pass' : 1. Navigate to : 'http://www.asp.net/ajaxLibrary/AjaxControlToolkitSampleSite/ColorPicker/ColorPicker.aspx'
+'6/14/2013 9:01:38 AM' - 'Pass' : 2. Click 'PalettePickerButton'
+'6/14/2013 9:01:38 AM' - 'Pass' : 3. Click 'ChooseColor'
+'6/14/2013 9:01:38 AM' - 'Pass' : 4. Verify 'ColorAndBackground:BackgroundColor' style 'Exact' '#FF0000' on 'TestColorBox'
+------------------------------------------------------------
+'6/14/2013 9:01:38 AM' - Overall Result: Pass
+'6/14/2013 9:01:38 AM' - Duration: [0 min: 3 sec: 32 msec]
+------------------------------------------------------------
+'6/14/2013 9:01:39 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">4</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">4</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:01:38Z+9919595</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:01:35Z+9597861</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+      <TestName Type="System.String">DragAndDrop</TestName>
+      <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop Rome to Italy</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452841</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'NotContain' 'Rome' on 'CapitalsDiv'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506171</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'Rome' on 'Italy'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506170</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop Madrid to Spain</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452844</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'NotContain' 'Madrid' on 'CapitalsDiv'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'Madrid' on 'Spain'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506167</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop Washington to UnitedStates</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452847</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'NotContain' 'Washington' on 'CapitalsDiv'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506165</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'Washington' on 'UnitedStates'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506164</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop Seoul to SouthKorea</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452850</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'NotContain' 'Seoul' on 'CapitalsDiv'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506162</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'Seoul' on 'SouthKorea'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506161</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop Copenhagen to Denmark</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452853</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'NotContain' 'Copenhagen' on 'CapitalsDiv'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">14</TestStepNumber>
+          <Order Type="System.Int32">15</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506159</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'Copenhagen' on 'Denmark'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">15</TestStepNumber>
+          <Order Type="System.Int32">16</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506158</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop Oslo to Norway</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">16</TestStepNumber>
+          <Order Type="System.Int32">17</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452856</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'NotContain' 'Oslo' on 'CapitalsDiv'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">17</TestStepNumber>
+          <Order Type="System.Int32">18</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506156</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'Oslo' on 'Norway'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">18</TestStepNumber>
+          <Order Type="System.Int32">19</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506155</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop Stockholm to Sweden</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">19</TestStepNumber>
+          <Order Type="System.Int32">20</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452859</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'NotContain' 'Stockholm' on 'CapitalsDiv'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">20</TestStepNumber>
+          <Order Type="System.Int32">21</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506153</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'Stockholm' on 'Sweden'</StepDescription>
+          <TestId Type="System.String">ca9cf569-b4fc-4290-bce0-13391bce757d</TestId>
+          <TestName Type="System.String">DragAndDrop</TestName>
+          <TestPath Type="System.String">DragAndDrop.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">21</TestStepNumber>
+          <Order Type="System.Int32">22</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506152</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:01:40 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:01:40 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:01:41 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:01:43 AM' - 'Pass' : 1. Navigate to : 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html'
+'6/14/2013 9:01:45 AM' - 'Pass' : 2. Desktop command: Drag &amp; Drop Rome to Italy
+'6/14/2013 9:01:45 AM' - 'Pass' : 3. Verify 'TextContent' 'NotContain' 'Rome' on 'CapitalsDiv'
+'6/14/2013 9:01:46 AM' - 'Pass' : 4. Verify 'InnerText' 'Contains' 'Rome' on 'Italy'
+'6/14/2013 9:01:47 AM' - 'Pass' : 5. Desktop command: Drag &amp; Drop Madrid to Spain
+'6/14/2013 9:01:47 AM' - 'Pass' : 6. Verify 'TextContent' 'NotContain' 'Madrid' on 'CapitalsDiv'
+'6/14/2013 9:01:47 AM' - 'Pass' : 7. Verify 'InnerText' 'Contains' 'Madrid' on 'Spain'
+'6/14/2013 9:01:49 AM' - 'Pass' : 8. Desktop command: Drag &amp; Drop Washington to UnitedStates
+'6/14/2013 9:01:49 AM' - 'Pass' : 9. Verify 'TextContent' 'NotContain' 'Washington' on 'CapitalsDiv'
+'6/14/2013 9:01:49 AM' - 'Pass' : 10. Verify 'InnerText' 'Contains' 'Washington' on 'UnitedStates'
+'6/14/2013 9:01:50 AM' - 'Pass' : 11. Desktop command: Drag &amp; Drop Seoul to SouthKorea
+'6/14/2013 9:01:50 AM' - 'Pass' : 12. Verify 'TextContent' 'NotContain' 'Seoul' on 'CapitalsDiv'
+'6/14/2013 9:01:50 AM' - 'Pass' : 13. Verify 'InnerText' 'Contains' 'Seoul' on 'SouthKorea'
+'6/14/2013 9:01:52 AM' - 'Pass' : 14. Desktop command: Drag &amp; Drop Copenhagen to Denmark
+'6/14/2013 9:01:52 AM' - 'Pass' : 15. Verify 'TextContent' 'NotContain' 'Copenhagen' on 'CapitalsDiv'
+'6/14/2013 9:01:52 AM' - 'Pass' : 16. Verify 'InnerText' 'Contains' 'Copenhagen' on 'Denmark'
+'6/14/2013 9:01:53 AM' - 'Pass' : 17. Desktop command: Drag &amp; Drop Oslo to Norway
+'6/14/2013 9:01:54 AM' - 'Pass' : 18. Verify 'TextContent' 'NotContain' 'Oslo' on 'CapitalsDiv'
+'6/14/2013 9:01:54 AM' - 'Pass' : 19. Verify 'InnerText' 'Contains' 'Oslo' on 'Norway'
+'6/14/2013 9:01:55 AM' - 'Pass' : 20. Desktop command: Drag &amp; Drop Stockholm to Sweden
+'6/14/2013 9:01:55 AM' - 'Pass' : 21. Verify 'TextContent' 'NotContain' 'Stockholm' on 'CapitalsDiv'
+'6/14/2013 9:01:55 AM' - 'Pass' : 22. Verify 'InnerText' 'Contains' 'Stockholm' on 'Sweden'
+------------------------------------------------------------
+'6/14/2013 9:01:55 AM' - Overall Result: Pass
+'6/14/2013 9:01:55 AM' - Duration: [0 min: 14 sec: 159 msec]
+------------------------------------------------------------
+'6/14/2013 9:01:56 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">22</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">22</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:01:55Z+9979322</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:01:41Z+8381223</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+      <TestName Type="System.String">Gauge</TestName>
+      <TestPath Type="System.String">Gauge.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.telerik.com/support/demos/developer-tools-demos.aspx'</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'SilverlightDemos'</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960561</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click AllControlsButton</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235167</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click GaugeRadbutton</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235166</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">LeftClick on OtherGaugeExamplesGrid</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">852983135</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click WeatherRadbutton</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235164</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'ControlNameTextblock' text Same 'Gauge'</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807024</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'ExampleNameTextblock' text Same 'Weather'</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807023</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'WeatherStationTextblock' text Same 'Weather Station'</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1420807022</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click NextCity</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235160</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click NextCity</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-395235159</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">[Gauge_CodedStep1]  Compare CurrentDate with date on Page</StepDescription>
+          <TestId Type="System.String">54b57987-0109-4e2b-a992-4da249c0eac5</TestId>
+          <TestName Type="System.String">Gauge</TestName>
+          <TestPath Type="System.String">Gauge.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2113398277</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:01:56 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:01:56 AM' - Starting execution....
+'6/14/2013 9:01:56 AM' - Detected a Silverlight Test. Setting EnableSilverlight=True
+'6/14/2013 9:01:58 AM' - Detected custom code in test. Locating test assembly: TestStudioHomework.dll.
+'6/14/2013 9:01:58 AM' - Assembly Found: C:\Users\DanKriss\Documents\Test Studio Projects\TestStudioHomework\bin\TestStudioHomework.dll
+'6/14/2013 9:01:58 AM' - Loading code class: 'TestStudioHomework.Gauge'.
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:01:58 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:02:01 AM' - 'Pass' : 1. Navigate to : 'http://www.telerik.com/support/demos/developer-tools-demos.aspx'
+'6/14/2013 9:02:23 AM' - 'Pass' : 2. Click 'SilverlightDemos'
+'6/14/2013 9:02:35 AM' - 'Pass' : 3. Click AllControlsButton
+'6/14/2013 9:02:37 AM' - 'Pass' : 4. Click GaugeRadbutton
+'6/14/2013 9:02:41 AM' - 'Pass' : 5. LeftClick on OtherGaugeExamplesGrid
+'6/14/2013 9:02:43 AM' - 'Pass' : 6. Click WeatherRadbutton
+'6/14/2013 9:02:46 AM' - 'Pass' : 7. Verify 'ControlNameTextblock' text Same 'Gauge'
+'6/14/2013 9:02:47 AM' - 'Pass' : 8. Verify 'ExampleNameTextblock' text Same 'Weather'
+'6/14/2013 9:02:49 AM' - 'Pass' : 9. Verify 'WeatherStationTextblock' text Same 'Weather Station'
+'6/14/2013 9:02:50 AM' - 'Pass' : 10. Click NextCity
+'6/14/2013 9:02:52 AM' - 'Pass' : 11. Click NextCity
+'6/14/2013 9:02:54 AM' - 'Pass' : 12. [Gauge_CodedStep1]  Compare CurrentDate with date on Page
+------------------------------------------------------------
+'6/14/2013 9:02:54 AM' - Overall Result: Pass
+'6/14/2013 9:02:54 AM' - Duration: [0 min: 55 sec: 343 msec]
+------------------------------------------------------------
+'6/14/2013 9:02:54 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">12</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">12</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:02:54Z+1882605</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:01:58Z+8450950</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+      <TestName Type="System.String">GoogleTranslate</TestName>
+      <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://translate.google.bg/'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ChangeLanguages'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960561</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ItalianLanguage'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960562</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498606</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'SubmitButton'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://translate.google.bg/'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ChangeLanguages'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960561</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ItalianLanguage'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960562</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498606</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'SubmitButton'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://translate.google.bg/'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ChangeLanguages'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960561</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ItalianLanguage'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960562</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498606</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'SubmitButton'</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]</StepDescription>
+          <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+          <TestName Type="System.String">GoogleTranslate</TestName>
+          <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:02:55 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:02:55 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:02:57 AM' - Detected DataDriven Test. Starting data iterations.
+------------------------------------------------------------
+'6/14/2013 9:02:57 AM' - [Iteration #1: (Source=father)(Result=padre)]
+------------------------------------------------------------
+Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:02:57 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:02:58 AM' - 'Pass' : 1. Navigate to : 'http://translate.google.bg/'
+'6/14/2013 9:02:58 AM' - 'Pass' : 2. Click 'ChangeLanguages'
+'6/14/2013 9:02:58 AM' - 'Pass' : 3. Click 'ItalianLanguage'
+'6/14/2013 9:02:59 AM' - 'Pass' : 4. Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]
+'6/14/2013 9:02:59 AM' - 'Pass' : 5. Click 'SubmitButton'
+'6/14/2013 9:02:59 AM' - 'Pass' : 6. Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]
+------------------------------------------------------------
+'6/14/2013 9:02:59 AM' - Overall Result: Pass
+'6/14/2013 9:02:59 AM' - Duration: [0 min: 2 sec: 429 msec]
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:02:59 AM' - [Iteration #2: (Source=sister)(Result=sorella)]
+------------------------------------------------------------
+Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:02:59 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:00 AM' - 'Pass' : 1. Navigate to : 'http://translate.google.bg/'
+'6/14/2013 9:03:00 AM' - 'Pass' : 2. Click 'ChangeLanguages'
+'6/14/2013 9:03:00 AM' - 'Pass' : 3. Click 'ItalianLanguage'
+'6/14/2013 9:03:00 AM' - 'Pass' : 4. Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]
+'6/14/2013 9:03:01 AM' - 'Pass' : 5. Click 'SubmitButton'
+'6/14/2013 9:03:01 AM' - 'Pass' : 6. Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]
+------------------------------------------------------------
+'6/14/2013 9:03:01 AM' - Overall Result: Pass
+'6/14/2013 9:03:01 AM' - Duration: [0 min: 1 sec: 746 msec]
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:03:01 AM' - [Iteration #3: (Source=brother)(Result=fratello)]
+------------------------------------------------------------
+Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:03:01 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:02 AM' - 'Pass' : 1. Navigate to : 'http://translate.google.bg/'
+'6/14/2013 9:03:02 AM' - 'Pass' : 2. Click 'ChangeLanguages'
+'6/14/2013 9:03:02 AM' - 'Pass' : 3. Click 'ItalianLanguage'
+'6/14/2013 9:03:02 AM' - 'Pass' : 4. Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]
+'6/14/2013 9:03:02 AM' - 'Pass' : 5. Click 'SubmitButton'
+'6/14/2013 9:03:03 AM' - 'Pass' : 6. Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]
+------------------------------------------------------------
+'6/14/2013 9:03:03 AM' - Overall Result: Pass
+'6/14/2013 9:03:03 AM' - Duration: [0 min: 1 sec: 895 msec]
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:03:03 AM' - Overall Result: Pass
+'6/14/2013 9:03:03 AM' - Duration: [0 min: 6 sec: 76 msec]
+------------------------------------------------------------
+'6/14/2013 9:03:03 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">18</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">18</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">True</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:03:03Z+1137710</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:02:57Z+0374234</StarTime>
+      <DataIterationResults>
+        <Item Type="ArtOfTest.WebAii.Design.Execution.DataIterationResult" Version="2012.2.1420.0">
+          <TestResult Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+            <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+            <TestName Type="System.String">GoogleTranslate</TestName>
+            <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+            <TestDescription Type="System.String">
+            </TestDescription>
+            <ProjectPath Type="System.String">
+            </ProjectPath>
+            <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+            <AutomationStepResults>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Navigate to : 'http://translate.google.bg/'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">0</TestStepNumber>
+                <Order Type="System.Int32">1</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">1347723234</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'ChangeLanguages'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">1</TestStepNumber>
+                <Order Type="System.Int32">2</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960561</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'ItalianLanguage'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">2</TestStepNumber>
+                <Order Type="System.Int32">3</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960562</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">3</TestStepNumber>
+                <Order Type="System.Int32">4</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">1106498606</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'SubmitButton'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">4</TestStepNumber>
+                <Order Type="System.Int32">5</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960564</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">5</TestStepNumber>
+                <Order Type="System.Int32">6</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">-1313506168</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+            </AutomationStepResults>
+            <NotRunStepDescriptions />
+            <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:02:57 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:02:58 AM' - 'Pass' : 1. Navigate to : 'http://translate.google.bg/'
+'6/14/2013 9:02:58 AM' - 'Pass' : 2. Click 'ChangeLanguages'
+'6/14/2013 9:02:58 AM' - 'Pass' : 3. Click 'ItalianLanguage'
+'6/14/2013 9:02:59 AM' - 'Pass' : 4. Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]
+'6/14/2013 9:02:59 AM' - 'Pass' : 5. Click 'SubmitButton'
+'6/14/2013 9:02:59 AM' - 'Pass' : 6. Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]
+------------------------------------------------------------
+'6/14/2013 9:02:59 AM' - Overall Result: Pass
+'6/14/2013 9:02:59 AM' - Duration: [0 min: 2 sec: 429 msec]
+------------------------------------------------------------
+</PerStepMessages>
+            <TotalNumberOfPassedSteps Type="System.Int32">6</TotalNumberOfPassedSteps>
+            <ExecutingTestStepCount Type="System.Int32">6</ExecutingTestStepCount>
+            <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+            <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+            <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+            <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+            <EndTime Type="System.DateTime">2013-06-14 06:02:59Z+4695626</EndTime>
+            <StarTime Type="System.DateTime">2013-06-14 06:02:57Z+0404236</StarTime>
+            <DataIterationResults />
+            <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+            <__DataMembers />
+          </TestResult>
+          <Iteration Type="System.String">[Iteration #1: (Source=father)(Result=padre)]</Iteration>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.Execution.DataIterationResult" Version="2012.2.1420.0">
+          <TestResult Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+            <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+            <TestName Type="System.String">GoogleTranslate</TestName>
+            <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+            <TestDescription Type="System.String">
+            </TestDescription>
+            <ProjectPath Type="System.String">
+            </ProjectPath>
+            <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+            <AutomationStepResults>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Navigate to : 'http://translate.google.bg/'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">0</TestStepNumber>
+                <Order Type="System.Int32">1</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">1347723234</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'ChangeLanguages'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">1</TestStepNumber>
+                <Order Type="System.Int32">2</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960561</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'ItalianLanguage'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">2</TestStepNumber>
+                <Order Type="System.Int32">3</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960562</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">3</TestStepNumber>
+                <Order Type="System.Int32">4</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">1106498606</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'SubmitButton'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">4</TestStepNumber>
+                <Order Type="System.Int32">5</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960564</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">5</TestStepNumber>
+                <Order Type="System.Int32">6</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">-1313506168</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+            </AutomationStepResults>
+            <NotRunStepDescriptions />
+            <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:02:59 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:00 AM' - 'Pass' : 1. Navigate to : 'http://translate.google.bg/'
+'6/14/2013 9:03:00 AM' - 'Pass' : 2. Click 'ChangeLanguages'
+'6/14/2013 9:03:00 AM' - 'Pass' : 3. Click 'ItalianLanguage'
+'6/14/2013 9:03:00 AM' - 'Pass' : 4. Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]
+'6/14/2013 9:03:01 AM' - 'Pass' : 5. Click 'SubmitButton'
+'6/14/2013 9:03:01 AM' - 'Pass' : 6. Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]
+------------------------------------------------------------
+'6/14/2013 9:03:01 AM' - Overall Result: Pass
+'6/14/2013 9:03:01 AM' - Duration: [0 min: 1 sec: 746 msec]
+------------------------------------------------------------
+</PerStepMessages>
+            <TotalNumberOfPassedSteps Type="System.Int32">6</TotalNumberOfPassedSteps>
+            <ExecutingTestStepCount Type="System.Int32">6</ExecutingTestStepCount>
+            <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+            <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+            <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+            <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+            <EndTime Type="System.DateTime">2013-06-14 06:03:01Z+2176625</EndTime>
+            <StarTime Type="System.DateTime">2013-06-14 06:02:59Z+4715627</StarTime>
+            <DataIterationResults />
+            <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+            <__DataMembers />
+          </TestResult>
+          <Iteration Type="System.String">[Iteration #2: (Source=sister)(Result=sorella)]</Iteration>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.Execution.DataIterationResult" Version="2012.2.1420.0">
+          <TestResult Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+            <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+            <TestName Type="System.String">GoogleTranslate</TestName>
+            <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+            <TestDescription Type="System.String">
+            </TestDescription>
+            <ProjectPath Type="System.String">
+            </ProjectPath>
+            <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+            <AutomationStepResults>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Navigate to : 'http://translate.google.bg/'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">0</TestStepNumber>
+                <Order Type="System.Int32">1</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">1347723234</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'ChangeLanguages'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">1</TestStepNumber>
+                <Order Type="System.Int32">2</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960561</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'ItalianLanguage'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">2</TestStepNumber>
+                <Order Type="System.Int32">3</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960562</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">3</TestStepNumber>
+                <Order Type="System.Int32">4</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">1106498606</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Click 'SubmitButton'</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">4</TestStepNumber>
+                <Order Type="System.Int32">5</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">2087960564</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]</StepDescription>
+                <TestId Type="System.String">65eb3087-fe03-4372-8ae2-c11a94668c07</TestId>
+                <TestName Type="System.String">GoogleTranslate</TestName>
+                <TestPath Type="System.String">GoogleTranslate.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">5</TestStepNumber>
+                <Order Type="System.Int32">6</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">-1313506168</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+            </AutomationStepResults>
+            <NotRunStepDescriptions />
+            <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:03:01 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:02 AM' - 'Pass' : 1. Navigate to : 'http://translate.google.bg/'
+'6/14/2013 9:03:02 AM' - 'Pass' : 2. Click 'ChangeLanguages'
+'6/14/2013 9:03:02 AM' - 'Pass' : 3. Click 'ItalianLanguage'
+'6/14/2013 9:03:02 AM' - 'Pass' : 4. Enter text  in 'SourceTextArea' - DataDriven: [$(Source)]
+'6/14/2013 9:03:02 AM' - 'Pass' : 5. Click 'SubmitButton'
+'6/14/2013 9:03:03 AM' - 'Pass' : 6. Verify 'TextContent' 'Exact' '' on 'ResultSpan' - DataDriven: [$(Result)]
+------------------------------------------------------------
+'6/14/2013 9:03:03 AM' - Overall Result: Pass
+'6/14/2013 9:03:03 AM' - Duration: [0 min: 1 sec: 895 msec]
+------------------------------------------------------------
+</PerStepMessages>
+            <TotalNumberOfPassedSteps Type="System.Int32">6</TotalNumberOfPassedSteps>
+            <ExecutingTestStepCount Type="System.Int32">6</ExecutingTestStepCount>
+            <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+            <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+            <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+            <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+            <EndTime Type="System.DateTime">2013-06-14 06:03:03Z+1127709</EndTime>
+            <StarTime Type="System.DateTime">2013-06-14 06:03:01Z+2176625</StarTime>
+            <DataIterationResults />
+            <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+            <__DataMembers />
+          </TestResult>
+          <Iteration Type="System.String">[Iteration #3: (Source=brother)(Result=fratello)]</Iteration>
+          <__DataMembers />
+        </Item>
+      </DataIterationResults>
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+      <TestName Type="System.String">NumericUpDown</TestName>
+      <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.asp.net/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx'</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'NumericValue'</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960561</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'FavouriteMonth'</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960562</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'RandomNumber'</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960563</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ArrowsToIncrement'</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'SubmitButton'</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960565</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Extract input 'Numeric1To7' value into DataBindVariable $(SampleContentTextBox1Text).</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">950034502</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Extract input 'Month' value into DataBindVariable $(SampleContentTextBox2Text).</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">950034503</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Extract input 'RandomNum' value into DataBindVariable $(SampleContentTextBox3Text).</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">950034504</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Extract input 'numValue' value into DataBindVariable $(SampleContentTextBox4Text).</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">950034505</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Exact' '' on 'x4BTag' - DataDriven: [$(SampleContentTextBox1Text)]</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506163</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Exact' 'July' on 'JulyBTag' - DataDriven: [$(SampleContentTextBox2Text)]</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506162</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Exact' '' on 'RandomTag'</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506161</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Exact' '1' on 'x1BTag' - DataDriven: [$(SampleContentTextBox4Text)]</StepDescription>
+          <TestId Type="System.String">6199a580-7865-49d6-8495-283bc0b07d57</TestId>
+          <TestName Type="System.String">NumericUpDown</TestName>
+          <TestPath Type="System.String">NumericUpDown.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506160</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:03:04 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:03:04 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:03:06 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:08 AM' - 'Pass' : 1. Navigate to : 'http://www.asp.net/ajaxLibrary/AjaxControlToolkitSampleSite/NumericUpDown/NumericUpDown.aspx'
+'6/14/2013 9:03:08 AM' - 'Pass' : 2. Click 'NumericValue'
+'6/14/2013 9:03:08 AM' - 'Pass' : 3. Click 'FavouriteMonth'
+'6/14/2013 9:03:08 AM' - 'Pass' : 4. Click 'RandomNumber'
+'6/14/2013 9:03:08 AM' - 'Pass' : 5. Click 'ArrowsToIncrement'
+'6/14/2013 9:03:08 AM' - 'Pass' : 6. Click 'SubmitButton'
+'6/14/2013 9:03:08 AM' - 'Pass' : 7. Extract input 'Numeric1To7' value into DataBindVariable $(SampleContentTextBox1Text).
+'6/14/2013 9:03:08 AM' - 'Pass' : 8. Extract input 'Month' value into DataBindVariable $(SampleContentTextBox2Text).
+'6/14/2013 9:03:09 AM' - 'Pass' : 9. Extract input 'RandomNum' value into DataBindVariable $(SampleContentTextBox3Text).
+'6/14/2013 9:03:09 AM' - 'Pass' : 10. Extract input 'numValue' value into DataBindVariable $(SampleContentTextBox4Text).
+'6/14/2013 9:03:09 AM' - 'Pass' : 11. Verify 'InnerText' 'Exact' '' on 'x4BTag' - DataDriven: [$(SampleContentTextBox1Text)]
+'6/14/2013 9:03:09 AM' - 'Pass' : 12. Verify 'InnerText' 'Exact' 'July' on 'JulyBTag' - DataDriven: [$(SampleContentTextBox2Text)]
+'6/14/2013 9:03:09 AM' - 'Pass' : 13. Verify 'InnerText' 'Exact' '' on 'RandomTag'
+'6/14/2013 9:03:09 AM' - 'Pass' : 14. Verify 'InnerText' 'Exact' '1' on 'x1BTag' - DataDriven: [$(SampleContentTextBox4Text)]
+------------------------------------------------------------
+'6/14/2013 9:03:09 AM' - Overall Result: Pass
+'6/14/2013 9:03:09 AM' - Duration: [0 min: 2 sec: 653 msec]
+------------------------------------------------------------
+'6/14/2013 9:03:09 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">14</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">14</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:03:09Z+2231204</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:03:06Z+5699687</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+      <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+      <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+          <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text 'JavaScript' in 'SrchstrText'</StepDescription>
+          <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+          <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498604</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify checked value is 'True' on 'AllCategoriesRadioButton'</StepDescription>
+          <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+          <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2053732629</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Check 'BooksRadioButton' to be 'True'</StepDescription>
+          <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+          <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1094448602</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+          <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+          <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'TextContent' 'Contains' 'Търсене на: JavaScript' on 'ТърсенеНаH1Tag'</StepDescription>
+          <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+          <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify checked value is 'True' on 'BooksRadioButtonNextPage'</StepDescription>
+          <TestId Type="System.String">25ec0b2a-c0cc-4c8b-87db-d012568daebe</TestId>
+          <TestName Type="System.String">StoreBGBooksOnlySearch</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGBooksOnlySearch.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2053732633</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:03:10 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:03:10 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:03:11 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:15 AM' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'6/14/2013 9:03:16 AM' - 'Pass' : 2. Enter text 'JavaScript' in 'SrchstrText'
+'6/14/2013 9:03:16 AM' - 'Pass' : 3. Verify checked value is 'True' on 'AllCategoriesRadioButton'
+'6/14/2013 9:03:17 AM' - 'Pass' : 4. Check 'BooksRadioButton' to be 'True'
+'6/14/2013 9:03:25 AM' - 'Pass' : 5. Click 'Submit'
+'6/14/2013 9:03:25 AM' - 'Pass' : 6. Verify 'TextContent' 'Contains' 'Търсене на: JavaScript' on 'ТърсенеНаH1Tag'
+'6/14/2013 9:03:25 AM' - 'Pass' : 7. Verify checked value is 'True' on 'BooksRadioButtonNextPage'
+------------------------------------------------------------
+'6/14/2013 9:03:25 AM' - Overall Result: Pass
+'6/14/2013 9:03:25 AM' - Duration: [0 min: 13 sec: 719 msec]
+------------------------------------------------------------
+'6/14/2013 9:03:26 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">7</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">7</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:03:25Z+5820561</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:03:11Z+8622714</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+      <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+      <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+          <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Check 'BooksRadioButton' to be 'True'</StepDescription>
+          <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+          <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1094448604</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.Execution.LogicalStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">ELSE</StepDescription>
+          <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+          <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-206396959</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <TestResult Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+            <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+            <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+            <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+            <TestDescription Type="System.String">
+            </TestDescription>
+            <ProjectPath Type="System.String">
+            </ProjectPath>
+            <ResultType Type="ArtOfTest.Common.Design.ResultType">NotRun</ResultType>
+            <AutomationStepResults />
+            <NotRunStepDescriptions>
+              <Item Type="System.String">Navigate to : 'http://www.book.store.bg/'</Item>
+              <Item Type="System.String">Check 'BooksRadioButton' to be 'True'</Item>
+              <Item Type="System.String">IF (Verify checked value is 'True' on 'SinRadio') THEN</Item>
+              <Item Type="System.String">Enter text 'Melanie Delon' in 'SrchstrText'</Item>
+              <Item Type="System.String">Click 'Submit'</Item>
+              <Item Type="System.String">Wait for 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'</Item>
+            </NotRunStepDescriptions>
+            <PerStepMessages Type="System.String">
+            </PerStepMessages>
+            <TotalNumberOfPassedSteps Type="System.Int32">0</TotalNumberOfPassedSteps>
+            <ExecutingTestStepCount Type="System.Int32">0</ExecutingTestStepCount>
+            <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+            <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+            <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+            <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+            <EndTime Type="System.DateTime">2013-06-14 06:03:35Z+5936287</EndTime>
+            <StarTime Type="System.DateTime">2013-06-14 06:03:35Z+5936287</StarTime>
+            <DataIterationResults />
+            <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+            <__DataMembers />
+          </TestResult>
+          <innerResult Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+            <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+            <TestName Type="System.String">
+            </TestName>
+            <TestOwner Type="System.String">
+            </TestOwner>
+            <TestDescription Type="System.String">
+            </TestDescription>
+            <ProjectPath Type="System.String">
+            </ProjectPath>
+            <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+            <AutomationStepResults>
+              <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+                <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+                <StepDescription Type="System.String">Check 'AllCategoriesRadioButton' to be 'True'</StepDescription>
+                <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+                <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+                <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+                <TestStepNumber Type="System.Int32">0</TestStepNumber>
+                <Order Type="System.Int32">5</Order>
+                <LogMessageOnError Type="System.String">
+                </LogMessageOnError>
+                <HashCode Type="System.Int32">-1094448605</HashCode>
+                <IsManual Type="System.Boolean">False</IsManual>
+                <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+                <__DataMembers />
+              </Item>
+            </AutomationStepResults>
+            <NotRunStepDescriptions />
+            <PerStepMessages Type="System.String">------------------------------------------------------------
+'6/14/2013 9:03:35 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:36 AM' - 'Pass' : 5. Check 'AllCategoriesRadioButton' to be 'True'
+</PerStepMessages>
+            <TotalNumberOfPassedSteps Type="System.Int32">1</TotalNumberOfPassedSteps>
+            <ExecutingTestStepCount Type="System.Int32">1</ExecutingTestStepCount>
+            <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+            <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+            <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+            <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+            <EndTime Type="System.DateTime">2013-06-14 06:03:35Z+5936287</EndTime>
+            <StarTime Type="System.DateTime">2013-06-14 06:03:35Z+5936287</StarTime>
+            <DataIterationResults />
+            <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+            <__DataMembers />
+          </innerResult>
+          <logicDetails Type="System.String">Condition Evaluation Details:
+
+Parameters:
+-----------
+Checked         = Expected:[True] , Actual:[False]
+</logicDetails>
+          <loopIteration Type="System.Int32">1</loopIteration>
+          <isLoop Type="System.Boolean">False</isLoop>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text 'Melanie Delon' in 'SrchstrText'</StepDescription>
+          <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+          <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498606</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+          <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+          <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Wait for 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'</StepDescription>
+          <TestId Type="System.String">304fb08b-3d78-4724-94fd-4ef45022bb32</TestId>
+          <TestName Type="System.String">StoreBGMelanieDelon</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGMelanieDelon.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:03:26 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:03:26 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:03:28 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:34 AM' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'6/14/2013 9:03:35 AM' - 'Pass' : 2. Check 'BooksRadioButton' to be 'True'
+'6/14/2013 9:03:36 AM' - 'Pass' : 3. ELSE
+Logical step encountered. Executing branch =&gt; ELSE:
+------------------------------------------------------------
+Condition Evaluation Details:
+
+Parameters:
+-----------
+Checked         = Expected:[True] , Actual:[False]
+
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:03:35 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:36 AM' - 'Pass' : 5. Check 'AllCategoriesRadioButton' to be 'True'
+
+'6/14/2013 9:03:37 AM' - 'Pass' : 6. Enter text 'Melanie Delon' in 'SrchstrText'
+'6/14/2013 9:03:43 AM' - 'Pass' : 7. Click 'Submit'
+'6/14/2013 9:03:44 AM' - 'Pass' : 8. Wait for 'TextContent' 'Contains' 'Melanie Delon' on 'MelanieDelonBTag'
+------------------------------------------------------------
+'6/14/2013 9:03:44 AM' - Overall Result: Pass
+'6/14/2013 9:03:44 AM' - Duration: [0 min: 15 sec: 766 msec]
+------------------------------------------------------------
+'6/14/2013 9:03:44 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">6</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">6</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:03:44Z+1891204</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:03:28Z+4222186</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">7ed9cc11-534f-43f5-b110-09fe1ea521af</TestId>
+      <TestName Type="System.String">StoreBGSearchJavaScript</TestName>
+      <TestPath Type="System.String">TestStudioHomework\StoreBGSearchJavaScript.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">7ed9cc11-534f-43f5-b110-09fe1ea521af</TestId>
+          <TestName Type="System.String">StoreBGSearchJavaScript</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGSearchJavaScript.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text 'JavaScript' in 'SrchstrText'</StepDescription>
+          <TestId Type="System.String">7ed9cc11-534f-43f5-b110-09fe1ea521af</TestId>
+          <TestName Type="System.String">StoreBGSearchJavaScript</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGSearchJavaScript.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498604</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+          <TestId Type="System.String">7ed9cc11-534f-43f5-b110-09fe1ea521af</TestId>
+          <TestName Type="System.String">StoreBGSearchJavaScript</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGSearchJavaScript.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960562</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' 'JavaScript' on 'Div'</StepDescription>
+          <TestId Type="System.String">7ed9cc11-534f-43f5-b110-09fe1ea521af</TestId>
+          <TestName Type="System.String">StoreBGSearchJavaScript</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreBGSearchJavaScript.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506170</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:03:45 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:03:45 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:03:46 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:03:52 AM' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'6/14/2013 9:03:53 AM' - 'Pass' : 2. Enter text 'JavaScript' in 'SrchstrText'
+'6/14/2013 9:04:00 AM' - 'Pass' : 3. Click 'Submit'
+'6/14/2013 9:04:00 AM' - 'Pass' : 4. Verify 'InnerText' 'Contains' 'JavaScript' on 'Div'
+------------------------------------------------------------
+'6/14/2013 9:04:00 AM' - Overall Result: Pass
+'6/14/2013 9:04:00 AM' - Duration: [0 min: 13 sec: 448 msec]
+------------------------------------------------------------
+'6/14/2013 9:04:00 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">4</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">4</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:04:00Z+3150427</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:03:46Z+8662735</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+    <Item Type="ArtOfTest.WebAii.Design.Execution.TestResult" Version="2012.2.1420.0">
+      <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+      <TestName Type="System.String">StoreGStoreTitle</TestName>
+      <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+      <TestDescription Type="System.String">
+      </TestDescription>
+      <ProjectPath Type="System.String">
+      </ProjectPath>
+      <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+      <AutomationStepResults>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Navigate to : 'http://www.book.store.bg/'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">0</TestStepNumber>
+          <Order Type="System.Int32">1</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1347723234</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Enter text 'JavaScript' in 'SrchstrText0'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">1</TestStepNumber>
+          <Order Type="System.Int32">2</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1106498604</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify checked value is 'True' on 'AllCategoriesRadioButton'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">2</TestStepNumber>
+          <Order Type="System.Int32">3</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2053732629</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Check 'BooksRadioButton' to be 'True'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">3</TestStepNumber>
+          <Order Type="System.Int32">4</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1094448602</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'Submit'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">4</TestStepNumber>
+          <Order Type="System.Int32">5</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960564</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'RegEx' '[A-Za-z]*JavaScript[A-Za-z]*' on 'BookTitle'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">5</TestStepNumber>
+          <Order Type="System.Int32">6</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506168</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Extract 'TextContent' on 'BookTitle' into DataBindVariable $(ForDummiesH3Tag)</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">6</TestStepNumber>
+          <Order Type="System.Int32">7</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506167</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'TableCell'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">7</TestStepNumber>
+          <Order Type="System.Int32">8</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960567</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'BookTitle'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">8</TestStepNumber>
+          <Order Type="System.Int32">9</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960568</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ЩракнетеNbspLink'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">9</TestStepNumber>
+          <Order Type="System.Int32">10</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960569</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Connect to pop-up window : 'http://www.book.store.bg/cgi-bin/pp-page.cgi?p=delivery_price&amp;productid=61454'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">10</TestStepNumber>
+          <Order Type="System.Int32">11</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">512605115</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop ЦенаЗаBTag to Window Target</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">11</TestStepNumber>
+          <Order Type="System.Int32">12</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452851</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Click 'ЦенаЗаBTag'</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">12</TestStepNumber>
+          <Order Type="System.Int32">13</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">2087960572</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Desktop command: Drag &amp; Drop ЦенаЗаBTag to Window Target</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">13</TestStepNumber>
+          <Order Type="System.Int32">14</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">1781452853</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+        <Item Type="ArtOfTest.WebAii.Design.AutomationStepResult" Version="2012.2.1420.0">
+          <ResultType Type="ArtOfTest.Common.Design.ResultType">Pass</ResultType>
+          <StepDescription Type="System.String">Verify 'InnerText' 'Contains' '${ForDummiesH3Tag}' on 'ЦенаЗаBTag' - DataDriven: [$(ForDummiesH3Tag)]</StepDescription>
+          <TestId Type="System.String">952a3a6b-40f5-4aa0-9425-b37410d2d412</TestId>
+          <TestName Type="System.String">StoreGStoreTitle</TestName>
+          <TestPath Type="System.String">TestStudioHomework\StoreGStoreTitle.tstest</TestPath>
+          <TestStepNumber Type="System.Int32">14</TestStepNumber>
+          <Order Type="System.Int32">15</Order>
+          <LogMessageOnError Type="System.String">
+          </LogMessageOnError>
+          <HashCode Type="System.Int32">-1313506159</HashCode>
+          <IsManual Type="System.Boolean">False</IsManual>
+          <WasStepEnabled Type="System.Boolean">False</WasStepEnabled>
+          <__DataMembers />
+        </Item>
+      </AutomationStepResults>
+      <NotRunStepDescriptions />
+      <PerStepMessages Type="System.String">Overall Result: Pass
+------------------------------------------------------------
+'6/14/2013 9:04:01 AM' - Using .Net Runtime version: '4.0.30319.17929' for test execution. Build version is '2012.2.1420.0'.
+'6/14/2013 9:04:01 AM' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'6/14/2013 9:04:02 AM' - Enabling Html Popup Tracker. Test expecting Popups.
+'6/14/2013 9:04:02 AM' - Using 'InternetExplorer' version '8.0' as default browser. 
+'6/14/2013 9:04:06 AM' - 'Pass' : 1. Navigate to : 'http://www.book.store.bg/'
+'6/14/2013 9:04:06 AM' - 'Pass' : 2. Enter text 'JavaScript' in 'SrchstrText0'
+'6/14/2013 9:04:07 AM' - 'Pass' : 3. Verify checked value is 'True' on 'AllCategoriesRadioButton'
+'6/14/2013 9:04:08 AM' - 'Pass' : 4. Check 'BooksRadioButton' to be 'True'
+'6/14/2013 9:04:12 AM' - 'Pass' : 5. Click 'Submit'
+'6/14/2013 9:04:12 AM' - 'Pass' : 6. Verify 'InnerText' 'RegEx' '[A-Za-z]*JavaScript[A-Za-z]*' on 'BookTitle'
+'6/14/2013 9:04:12 AM' - 'Pass' : 7. Extract 'TextContent' on 'BookTitle' into DataBindVariable $(ForDummiesH3Tag)
+'6/14/2013 9:04:13 AM' - 'Pass' : 8. Click 'TableCell'
+'6/14/2013 9:04:14 AM' - 'Pass' : 9. Click 'BookTitle'
+'6/14/2013 9:04:16 AM' - 'Pass' : 10. Click 'ЩракнетеNbspLink'
+'6/14/2013 9:04:20 AM' - 'Pass' : 11. Connect to pop-up window : 'http://www.book.store.bg/cgi-bin/pp-page.cgi?p=delivery_price&amp;productid=61454'
+'6/14/2013 9:04:21 AM' - 'Pass' : 12. Desktop command: Drag &amp; Drop ЦенаЗаBTag to Window Target
+'6/14/2013 9:04:21 AM' - 'Pass' : 13. Click 'ЦенаЗаBTag'
+'6/14/2013 9:04:21 AM' - 'Pass' : 14. Desktop command: Drag &amp; Drop ЦенаЗаBTag to Window Target
+'6/14/2013 9:04:21 AM' - 'Pass' : 15. Verify 'InnerText' 'Contains' '${ForDummiesH3Tag}' on 'ЦенаЗаBTag' - DataDriven: [$(ForDummiesH3Tag)]
+------------------------------------------------------------
+'6/14/2013 9:04:21 AM' - Overall Result: Pass
+'6/14/2013 9:04:21 AM' - Duration: [0 min: 18 sec: 887 msec]
+------------------------------------------------------------
+'6/14/2013 9:04:23 AM' - Test completed!
+</PerStepMessages>
+      <TotalNumberOfPassedSteps Type="System.Int32">15</TotalNumberOfPassedSteps>
+      <ExecutingTestStepCount Type="System.Int32">15</ExecutingTestStepCount>
+      <TotalNumberOfNotRunSteps Type="System.Int32">0</TotalNumberOfNotRunSteps>
+      <IsDataDrivenResult Type="System.Boolean">False</IsDataDrivenResult>
+      <SeparatorLineCharCount Type="System.Int32">60</SeparatorLineCharCount>
+      <ExecutionType Type="ArtOfTest.Common.Design.ExecutionType">QuickExecution</ExecutionType>
+      <EndTime Type="System.DateTime">2013-06-14 06:04:21Z+8692755</EndTime>
+      <StarTime Type="System.DateTime">2013-06-14 06:04:02Z+9821953</StarTime>
+      <DataIterationResults />
+      <VersionGroupKey Type="System.String">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+      <__DataMembers />
+    </Item>
+  </TestResults>
+  <ResultId Type="System.String">42592b7a-cb68-478e-9a55-80afdf5646ce</ResultId>
+  <Machine Type="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine" Version="2012.2.1420.0">
+    <__DataMember_Id IsDataContractSerialized="True" PropertyName="Id" PropertyType="System.Guid">
+      <guid xmlns="http://schemas.microsoft.com/2003/10/Serialization/">00000000-0000-0000-0000-000000000000</guid>
+    </__DataMember_Id>
+    <__DataMember_NetworkName IsDataContractSerialized="True" PropertyName="NetworkName" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">DANKRISS-PC</string>
+    </__DataMember_NetworkName>
+    <__DataMember_OperatingSystem IsDataContractSerialized="True" PropertyName="OperatingSystem" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">Windows 7</string>
+    </__DataMember_OperatingSystem>
+    <__DataMember_InstalledBrowsers IsDataContractSerialized="True" PropertyName="InstalledBrowsers" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation[]">
+      <ArrayOfBrowserInformation xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <BrowserInformation>
+          <Type>InternetExplorer</Type>
+          <Version>8.0.7600.16385</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>FireFox</Type>
+          <Version>21.0 (en-US)</Version>
+        </BrowserInformation>
+        <BrowserInformation>
+          <Type>Chrome</Type>
+          <Version />
+        </BrowserInformation>
+      </ArrayOfBrowserInformation>
+    </__DataMember_InstalledBrowsers>
+    <__DataMember_Status IsDataContractSerialized="True" PropertyName="Status" PropertyType="ArtOfTest.WebAii.Design.Execution.Scheduling.MachineStatus">
+      <MachineStatus xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Design.Execution.Scheduling">Ready</MachineStatus>
+    </__DataMember_Status>
+    <__DataMember_ServiceUri IsDataContractSerialized="True" PropertyName="ServiceUri" PropertyType="System.String">
+      <string i:nil="true" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    </__DataMember_ServiceUri>
+    <__DataMember_DBState IsDataContractSerialized="True" PropertyName="DBState" PropertyType="System.Int32">
+      <int xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</int>
+    </__DataMember_DBState>
+    <__DataMember_UserName IsDataContractSerialized="True" PropertyName="UserName" PropertyType="System.String">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">DanKriss</string>
+    </__DataMember_UserName>
+    <Id Type="System.String">00000000-0000-0000-0000-000000000000</Id>
+    <NetworkName Type="System.String">DANKRISS-PC</NetworkName>
+    <OperatingSystem Type="System.String">Windows 7</OperatingSystem>
+    <InstalledBrowsers>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">InternetExplorer</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8.0.7600.16385</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">InternetExplorer</BrowserType>
+        <Version Type="System.String">8.0.7600.16385</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">FireFox</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">21.0 (en-US)</string>
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">FireFox</BrowserType>
+        <Version Type="System.String">21.0 (en-US)</Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+      <Item Type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation" Version="2012.2.1420.0">
+        <__DataMember_Type IsDataContractSerialized="True" PropertyName="Type" PropertyType="ArtOfTest.WebAii.Core.BrowserType">
+          <BrowserType xmlns="http://schemas.datacontract.org/2004/07/ArtOfTest.WebAii.Core">Chrome</BrowserType>
+        </__DataMember_Type>
+        <__DataMember_Version IsDataContractSerialized="True" PropertyName="Version" PropertyType="System.String">
+          <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </__DataMember_Version>
+        <BrowserType Type="ArtOfTest.WebAii.Core.BrowserType">Chrome</BrowserType>
+        <Version Type="System.String">
+        </Version>
+        <__DataMembers>
+          <Item Type="System.String">__DataMember_Type</Item>
+          <Item Type="System.String">__DataMember_Version</Item>
+        </__DataMembers>
+      </Item>
+    </InstalledBrowsers>
+    <Status Type="ArtOfTest.WebAii.Design.Execution.Scheduling.MachineStatus">Ready</Status>
+    <DBState Type="System.Int32">0</DBState>
+    <__DataMembers>
+      <Item Type="System.String">__DataMember_Id</Item>
+      <Item Type="System.String">__DataMember_NetworkName</Item>
+      <Item Type="System.String">__DataMember_OperatingSystem</Item>
+      <Item Type="System.String">__DataMember_InstalledBrowsers</Item>
+      <Item Type="System.String">__DataMember_Status</Item>
+      <Item Type="System.String">__DataMember_ServiceUri</Item>
+      <Item Type="System.String">__DataMember_DBState</Item>
+      <Item Type="System.String">__DataMember_UserName</Item>
+    </__DataMembers>
+  </Machine>
+  <IsManual Type="System.Boolean">False</IsManual>
+  <TestListId Type="System.String">42803d78-2fc9-4757-afc5-cabdcc22ee29</TestListId>
+  <IsComplete Type="System.Boolean">True</IsComplete>
+  <__DataMembers>
+    <Item Type="System.String">__DataMember_FileName</Item>
+    <Item Type="System.String">__DataMember_Id</Item>
+    <Item Type="System.String">__DataMember_Machine</Item>
+    <Item Type="System.String">__DataMember_RunId</Item>
+    <Item Type="System.String">__DataMember_TestListId</Item>
+  </__DataMembers>
+</RunResult>
