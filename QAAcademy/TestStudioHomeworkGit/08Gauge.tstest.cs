@@ -137,13 +137,23 @@ namespace TestStudioHomework
             
         }
     
-        [CodedStep(@"Verify 'JUN152013Textblock' text Same 'JUN 15, 2013' - DataDriven: [$(DateOnPage)]", RequiresSilverlight=true)]
-        public void _08Gauge_CodedStep2()
-        {
-            // Verify current computer date is same as the date on the page
-            string computerDate = DateTime.Now.ToString( "MMM dd, yyyy").ToUpper();
-            Assert.IsFalse((ArtOfTest.Common.CompareUtils.StringCompare(computerDate, ((string)(System.Convert.ChangeType(Data["DateOnPage"], typeof(string)))), ArtOfTest.Common.StringCompareType.Same) == false), string.Format("Verify current date"+computerDate + "failed.  Actual value \'{0}\'", (string)(System.Convert.ChangeType(Data["DateOnPage"], typeof(string)))));
+        //[CodedStep(@"Verify 'JUN152013Textblock' text Same 'JUN 15, 2013' - DataDriven: [$(DateOnPage)]", RequiresSilverlight=true)]
+        //public void _08Gauge_CodedStep2()
+        //{
+            //// Verify current computer date is same as the date on the page
+            //string computerDate = DateTime.Now.ToString( "MMM dd, yyyy").ToUpper();
+            //Assert.IsFalse((ArtOfTest.Common.CompareUtils.StringCompare(computerDate, ((string)(System.Convert.ChangeType(Data["DateOnPage"], typeof(string)))),
+            //ArtOfTest.Common.StringCompareType.Same) == false), string.Format("Verify current date"+computerDate + "failed.  Actual value \'{0}\'", 
+                //(string)(System.Convert.ChangeType(Data["DateOnPage"], typeof(string)))));
             
+        //}
+    
+        [CodedStep(@"Verify 'JUN172013Textblock' text Same 'JUN 17, 2013'", RequiresSilverlight=true)]
+        public void _08Gauge_CodedStep3()
+        {
+            // Verify 'JUN172013Textblock' text Same 'JUN 17, 2013'
+            string computerDate = DateTime.Now.ToString( "MMM dd, yyyy").ToUpper();
+            Assert.AreEqual(Pages.TelerikGaugeForSilverlight0.SilverlightApp.JUN172013Textblock.Text, computerDate);
         }
     }
 }
